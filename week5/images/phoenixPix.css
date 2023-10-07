@@ -1,0 +1,9 @@
+img 
+    {width: 300px; 
+    height: 300px;
+    border: solid;
+    border-color: blue;}
+#tmplk:active {opacity: .75;}
+#asu:hover {filter: grayscale(100%);}
+#phxm:hover {transform: scaleX(-1);}
+#phxn:active {border-radius: 50%;}
