@@ -20,6 +20,10 @@ nav {
 	padding-bottom: .5em;
 	text-align: center;
 }
+nav ol {list-style-type: none;}
+nav a {text-decoration: none;}
+nav li {display: inline;
+        padding: 0.5em 1em;}
 
 main { 
     padding-left: 2em;
@@ -74,3 +78,6 @@ h3 {
     max-width: 2048px;
     box-shadow: 3px 3px 3px #777;
 }
+a:link {color: darkblue;}
+a:visited {color: darkblue;}
+a:hover {background-color: red; color: #FFFFFF;}
