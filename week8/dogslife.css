@@ -1,0 +1,10 @@
+header {background-color: lightgreen;
+        color: blue;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        display: flex;}
+nav {flex: 3;
+     order: 1;}
+main {flex: 7;
+      order: 2;}
