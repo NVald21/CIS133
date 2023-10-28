@@ -1,11 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="utf-8">
+<title>ADogsLife.html</title>
+<link rel="stylesheet" href="dogslife.css">
+<style>
+	#wrapper {display: grid;
+			  grid-template-columns: 225px 1fr;
+			  grid-template-rows: 100px auto 50px;
+			  grid-template-areas: 
+									"header header"
+									"nav main"
+									"footer footer";
+	}
+</style>
 </head>
-<body>
-    
+<body id="wrapper">
+	<header>
+	<h1>A Dog's Life</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="DogsLifeHome.html">Home</a></li>
+			<li><a href="GroomingServices.html">Grooming Services</a></li>
+			<li><a href="Location.html">Location</a></li>
+			<li><a href="ContactUs.html">Contact Us</a></li>
+			<li><a href="SelectingAPet.html">Selecting A Pet</a></li>
+		</ul>
+	</nav>
+	
+	<main id="dgpl">
+        <h2 style="color: white">We make your pet<br>the priority.</h2>
+	</main>
+	
+	
+	<footer>Copyright &copy; 2023 A Dog's Life<br>
+	Nicholas Valderrama</footer>
 </body>
 </html>
