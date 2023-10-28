@@ -63,3 +63,7 @@ h2 {font-size: 3em;
        background-size: cover;}
 img {border: ridge thick;
      border-color: lightgreen;}
+#food {list-style: none;
+       padding: 20px 20px 20px 20px;
+       font-size: 1.5em;}
+aside a {text-decoration: none;}
