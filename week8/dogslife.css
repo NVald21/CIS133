@@ -55,7 +55,8 @@ footer {grid-row: 3/4;
 h1 {font-size: 5em;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";}
 h2 {font-size: 3em;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+        color: blue}
 #dgpl {width: auto; 
        height: 1024px;
        background-image: url("dogs/dgply.jpg");
@@ -77,3 +78,4 @@ aside a {text-decoration: none;}
                                                               "header header header"
                                                               "nav main aside"
                                                               "footer footer footer"}
+#homeh2 {color: white; font-style: italic; font-size: 3em; word-spacing: .25em;}
