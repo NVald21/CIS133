@@ -70,3 +70,10 @@ aside a {text-decoration: none;}
 #hours {list-style: none;
         font-size: 1em;
         padding-bottom: 5px;}
+#wrapper2 {display: grid;
+                grid-template-columns: 225px 700px 1fr;
+                grid-template-rows: 100px auto 50px;
+                grid-template-areas: 
+                                                              "header header header"
+                                                              "nav main aside"
+                                                              "footer footer footer"}
