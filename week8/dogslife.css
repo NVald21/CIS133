@@ -35,7 +35,7 @@ main {flex: 6;
       grid-column: 2/3;
       grid-area: main;
 	  padding: 20px 20px 20px 20px;
-	  overflow: auto;
+	  overflow: hidden;
 	  display: block;
 	  text-align: justify;
 	  padding-left: 50px;
@@ -61,3 +61,5 @@ h2 {font-size: 3em;
        background-image: url("dogs/dgply.jpg");
        background-repeat: no-repeat;
        background-size: cover;}
+img {border: ridge thick;
+     border-color: lightgreen;}
