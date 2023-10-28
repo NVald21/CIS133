@@ -3,8 +3,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
     display: grid;
-    grid-template-columns: 15% 85%;
-    grid-template-rows: 75px auto 50px;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 75px 1fr 50px;
     grid-template-areas: 
                            "header header"
                            "aside main"
@@ -57,4 +57,4 @@ p {
     padding: 5px;
     border-radius: 3px;
 }
-div {margin: auto 20px;}
+.childdiv div {margin: auto 20px;}

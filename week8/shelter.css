@@ -1,0 +1,94 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 75px 1fr 50px;
+    grid-template-areas: 
+                           "header header"
+                           "aside main"
+                           "footer footer" ;
+}
+
+header, aside, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    color: white;
+    background-color: blue;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: yellow;
+    grid-area: aside;
+}
+
+aside > img {
+    border-radius: 50%;
+}
+
+main {grid-area: main;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: center;
+      align-items: center;
+}
+
+footer {
+    color: white;
+    background-color: blue;
+    grid-area: footer;
+}
+
+header, footer {display: flex;
+                justify-content: center;
+                align-items: center;
+}
+
+h1 {
+    color: rgb(33,87,51);
+}
+
+p {
+    color: blue;
+}
+
+.mascot {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.amigo_div {
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+}
+
+.amigo_div > img {
+    width: 180px;
+    height: 180px;
+}
+.hdrftr div {margin: auto 20px;
+}
+
+#nav {display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;}
+
+img {max-width: 100%;
+     height: auto;}
