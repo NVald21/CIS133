@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {border-collapse: collapse;border-spacing: 0;}
+        thead {background-color: green; color: white; font-weight: bold;}
+        tbody {text-align: end;}
+        tfoot {background-color: green; color: white; font-weight: bold; text-align: center;}
+        td, th {padding: 5px; font-family: 'Times New Roman', Times, serif;}
+        #bgclr {background-color: green; color: white; font-weight: bold;}
+        .altrow {background-color: lightgreen;}
+    </style>
+</head>
+<body>
+    <table>
+        <caption id="bgclr">My CIS133 Grades</caption>
+
+    <thead>
+        <tr>
+            <th>Week #</th>
+            <th>Pts Possible</th>
+            <th>Pts Actual</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Week 1</td>
+            <td>80</td>
+            <td>65</td>
+        </tr>
+        <tr class="altrow">
+            <td>Week 2</td>
+            <td>80</td>
+            <td>68</td>
+        </tr>
+        <tr>
+            <td>Week 3</td>
+            <td>40</td>
+            <td>34</td>
+        </tr>
+        <tr class="altrow">
+            <td>Week 4</td>
+            <td>40</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td>Week 5</td>
+            <td>40</td>
+            <td>31</td>
+        </tr>
+        <tr class="altrow">
+            <td>Week 6</td>
+            <td>40</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>Week 7</td>
+            <td>40</td>
+            <td>37</td>
+        </tr>
+        <tr class="altrow">
+            <td>Week 8</td>
+            <td>100</td>
+            <td>91</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>450</td>
+            <td>391</td>
+        </tr>
+        <tr>
+            <td colspan="3">Letter Grade B (86%)</td>
+        </tr>
+    </tfoot>
+    </table>
+    
+</body>
+</html>
