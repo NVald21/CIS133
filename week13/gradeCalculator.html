@@ -89,8 +89,7 @@
                 <td class="nbr"><input type="number" id="pos6" value="40" /></td>
                 <td class="nbr"><input type="number" id="act6" value="29" /></td>
             </tr>
-            <tr>
-                <td>Week 7</td>
+            <tr>                <td>Week 7</td>
                 <td class="nbr"><input type="number" id="pos7" value="40" /></td>
                 <td class="nbr"><input type="number" id="act7" value="37" /></td>
             </tr>
@@ -101,6 +100,9 @@
             </tr>
         </tbody>
         <tfoot>
+            <tr>
+                <td colspan="3"><button onclick="calc()">Calculate</button></td>
+            </tr>
             <tr>
                 <th>Total</th>
                 <th class="sum" id="posTot"></th>
@@ -113,4 +115,39 @@
     </table>
 
 </body>
+<script>
+    function calc() {
+        var posTot = 0, actTot = 0, pctTot, strGrade;
+        var aryElms = document.getElementsByTagName('input');
+        for (i=0; i <aryElms.length; i++) {
+            if (aryElms[i].id.indexOf('pos') ==0) {
+                posTot += parseInt(aryElms[i].value)
+            }
+            if (aryElms[i].id.indexOf('act') ==0) {
+                actTot += parseInt(aryElms[i].value)
+            }
+        }
+        document.getElementById('posTot').innerText = posTot;
+        document.getElementById('actTot').innerText = actTot;
+        pctTot = parseInt((actTot / posTot) * 100);
+        switch(true) {
+            case (pctTot > 89):
+                strGrade = 'A';
+                break;
+            case (pctTot > 79):
+                strGrade = 'B';
+                break;
+            case (pctTot > 69):
+                strGrade = 'C';
+                break;   
+            case (pctTot > 59):
+                strGrade = 'D';
+                break; 
+            default:
+                strGrade = 'F';
+                break;
+        }
+        document.getElementById('mygrade').innerText = `Letter Grade: ${strGrade} (${pctTot}%)`;
+    }
+</script>
 </html>
