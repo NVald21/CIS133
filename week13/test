@@ -1,0 +1,7 @@
+ 
+    
+
+    
+    
+    const sztype = amigoName + amigoType
+    return(<div><img src={`$sztype[0].image`}></img></div>;
