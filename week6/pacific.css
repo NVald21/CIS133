@@ -27,15 +27,15 @@ nav a {
 }
 
 nav a:link {
-  color: #5c7fa3;
+  color: black;
 }
 
 nav a:visited {
-  color: #344873;
+  color: black;
 }
 
-nav a:hover {
-  color: #a52a2a;
+nav a:hover {background-color: black;
+  color: white;
 }
 
 nav li {
