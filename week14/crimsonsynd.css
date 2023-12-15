@@ -11,6 +11,7 @@ header {background-color: #c00000;
   border-bottom: solid thick;
   border-color: black;
   padding-bottom: 20px;
+  margin-top: 10px;
 }
 body {background-color: #c00000;
       margin: 0;}
@@ -86,7 +87,7 @@ footer {grid-row: 4/5;
 p {font-size: 1.5em;}
 
 #wrapper {display: grid;
-          grid-template-columns: 1150px 1fr;
+          grid-template-columns: 1000px 1fr;
           grid-template-rows: 100px auto auto 100px;
           grid-template-areas: 
                                                 "header header"
@@ -113,13 +114,16 @@ p {font-size: 1.5em;}
                                                  "footer footer";}                                                
 
 img {border: thick ridge;
-     border-color: white;}
+     border-color: white;
+     margin-top: 25px;}
 
 .homepara {font-size: 1.5em;}
 .table {width: 950px;
         height: 650px;
         font-size: 1.5em;
-        margin-top: 25px;}
+        margin-top: 25px;
+        border: solid;
+        }
 th {color: white;
     background-color: black;}
 
@@ -129,7 +133,8 @@ ul {font-size: 1.5em;}
 .table2 {width: 550px;
   height: 550px;
   font-size: 1.5em;
-  margin-top: 25px;}
+  margin-top: 25px;
+  border: solid;}
 th {color: white;
     background-color: black;
 }
@@ -144,6 +149,7 @@ th {color: white;
          background-color: #c00000;
          width: 550px;
          font-size: 1.5em;
+         margin-top: 25px;
         }
 .thorder {background-color: black;
           color: #c00000;}
