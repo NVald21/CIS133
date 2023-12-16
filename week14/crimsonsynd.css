@@ -96,7 +96,7 @@ p {font-size: 1.5em;}
                                                 "footer footer";}
  
 #wrapper2 {display: grid;
-           grid-template-columns: 1fr 1050px;
+           grid-template-columns: 1fr 1000px;
            grid-template-rows: 100px auto auto 100px;
            grid-template-areas: 
                                                 "header header"
@@ -105,7 +105,7 @@ p {font-size: 1.5em;}
                                                 "footer footer";}
 
 #wrapper3 {display: grid;
-          grid-template-columns: 450px 1fr;
+          grid-template-columns: 1fr 1000px;
           grid-template-rows: 100px auto auto 100px;
           grid-template-areas: 
                                                  "header header"
